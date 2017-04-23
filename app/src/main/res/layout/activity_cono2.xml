@@ -58,5 +58,5 @@
         android:id="@+id/btnOk"
         android:layout_below="@+id/linearLayout5"
         android:layout_centerHorizontal="true"
-        android:onClick="BorrarCono"/>
+        android:onClick="VolverCono"/>
 </RelativeLayout>
