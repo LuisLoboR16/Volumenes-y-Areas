@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.labredes.movil.Cilindro">
+
+    <TextView
+        android:id="@+id/txtCilindro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/Cilindro"
+        android:text="Cilindro"
+        android:textSize="36dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtCilindro"
+        android:layout_alignRight="@+id/txtCilindro"
+        android:layout_alignEnd="@+id/txtCilindro"
+        android:id="@+id/txtValorRadio">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/ValorRadio"
+            android:text="Valor del Radio"
+            android:textSize="20dp" />
+
+        <EditText
+            android:layout_width="66dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/cajaRadio" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtValorRadio"
+        android:layout_alignRight="@+id/txtCilindro"
+        android:layout_alignEnd="@+id/txtCilindro"
+        android:weightSum="1"
+        android:id="@+id/linearLayout2">
+
+        <TextView
+            android:id="@+id/txtAltura"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/ValorAltura"
+            android:text="Valor de la Altura"
+            android:textSize="20dp" />
+
+        <EditText
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/cajaAltura" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_alignLeft="@+id/txtValorRadio"
+        android:layout_alignStart="@+id/txtValorRadio">
+
+        <Button
+            android:id="@+id/btnCalcular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txtCilindro"
+            android:layout_alignStart="@+id/txtCilindro"
+            android:layout_below="@+id/linearLayout2"
+            android:hint="@string/Calcular"
+            android:onClick="Cilindro"
+            android:text="Calcular" />
+
+        <Button
+            android:id="@+id/btnBorrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/button"
+            android:layout_toEndOf="@+id/button"
+            android:layout_toRightOf="@+id/button"
+            android:hint="@string/Borrar"
+            android:onClick="BorrarCilindro"
+            android:text="Borrar" />
+    </LinearLayout>
+
+</RelativeLayout>

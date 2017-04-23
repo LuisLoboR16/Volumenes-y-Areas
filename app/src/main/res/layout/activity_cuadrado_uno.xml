@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:text="Cuadrado"
+        android:id="@+id/txtCuadrado"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.03"
+        android:textSize="32dp"
+        android:hint="@string/Cuadrado" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.03">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="41dp"
+            android:text="Valor del Lado: "
+            android:id="@+id/txtValorLado"
+            android:layout_weight="0.01"
+            android:hint="@string/ValorDeLado" />
+
+        <EditText
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/cajLado"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.49" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calcular"
+            android:id="@+id/btnCalcular"
+            android:layout_weight="0.03"
+            android:onClick="AlCuadrado"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Borrar"
+            android:id="@+id/btnBorrar"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.03"
+            android:onClick="Borrar"/>
+    </LinearLayout>
+
+</LinearLayout>

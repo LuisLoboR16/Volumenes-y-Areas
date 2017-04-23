@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.labredes.movil">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Principal"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Areas" />
+        <activity android:name=".Cuadrado" />
+        <activity android:name=".Cuadrado2" />
+        <activity android:name=".Rectangulo" />
+        <activity android:name=".Rectangulo2" />
+        <activity android:name=".Listar2" />
+        <activity android:name=".Triangulo" />
+        <activity android:name=".Triangulo2" />
+        <activity android:name=".Circulo" />
+        <activity android:name=".Circulo2" />
+        <activity android:name=".Volumenes" />
+        <activity android:name=".Esfera" />
+        <activity android:name=".Esfera2" />
+        <activity android:name=".Cilindro" />
+        <activity android:name=".Cilindro2" />
+        <activity android:name=".Cono" />
+        <activity android:name=".Cono2" />
+        <activity android:name=".Cubo" />
+        <activity android:name=".Cubo2"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Movil</string>
+    <string name="Cuadrado">Cuadrado</string>
+    <string name="ValorDeLado">Valor del Lado</string>
+    <string name="Area">Area</string>
+    <string name="Rectangulo">Rectangulo</string>
+    <string name="Triangulo">Triangulo</string>
+    <string name="Circulo">Circulo</string>
+    <string name="Esfera">Esfera</string>
+    <string name="Cilindro">Cilindro</string>
+    <string name="Cono">Cono</string>
+    <string name="Cubo">Cubo</string>
+    <string name="Areas">Areas</string>
+    <string name="Volumenes">Volumenes</string>
+    <string name="OperacionesRealizadas">Operaciones Realizadas</string>
+    <string name="Base">Base</string>
+    <string name="Altura">Altura</string>
+    <string name="Calcular">Calcular</string>
+    <string name="Borrar">Borrar</string>
+    <string name="Resultado">Resultado</string>
+    <string name="Realizadas">Realizadas</string>
+    <string name="Operacion">Operacion</string>
+    <string name="Datos">Datos</string>
+    <string name="Volumen">Volumen</string>
+    <string name="ValorArista">Valor de la Arista</string>
+    <string name="ValorBase">Valor de la Base</string>
+    <string name="ValorAltura">Valor de la Altura</string>
+    <string name="Opciones">Opciones</string>
+    <string name="ValorRadio">Valor del Radio</string>
+    <string-array name="Combinaciones">
+        <item>@string/Areas</item>
+        <item>@string/Volumenes</item>
+        <item>@string/OperacionesRealizadas</item>
+    </string-array>
+    <string-array name="Areas">
+        <item>@string/Cuadrado</item>
+        <item>@string/Rectangulo</item>
+        <item>@string/Triangulo</item>
+        <item>@string/Circulo</item>
+    </string-array>
+    <string-array name="Volumenes">
+        <item>@string/Esfera</item>
+        <item>@string/Cilindro</item>
+        <item>@string/Cono</item>
+        <item>@string/Cubo</item>
+    </string-array>
+</resources>

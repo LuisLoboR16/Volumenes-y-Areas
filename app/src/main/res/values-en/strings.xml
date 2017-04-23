@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Movil</string>
+    <string name="Altura">Height</string>
+    <string name="Area">Area</string>
+    <string name="Areas">Areas</string>
+    <string name="Base">Base</string>
+    <string name="Borrar">Clear</string>
+    <string name="Calcular">Calculate</string>
+    <string name="Cilindro">Cylinder</string>
+    <string name="Circulo">Circle</string>
+    <string name="Cono">Cone</string>
+    <string name="Cuadrado">Square</string>
+    <string name="Cubo">Cube</string>
+    <string name="Datos">Data</string>
+    <string name="Esfera">Sphere</string>
+    <string name="Opciones">Options</string>
+    <string name="Operacion">Operation</string>
+    <string name="OperacionesRealizadas">Operations Perfomed</string>
+    <string name="Realizadas">Perfomed</string>
+    <string name="Rectangulo">Rectangle</string>
+    <string name="Resultado">Result</string>
+    <string name="Triangulo">Triangle</string>
+    <string name="ValorAltura">Value of Height</string>
+    <string name="ValorArista">Value of  Edge</string>
+    <string name="ValorBase">Value of Base</string>
+    <string name="ValorDeLado">Value of Side</string>
+    <string name="ValorRadio">Value of Radio</string>
+    <string name="Volumen">Volumen</string>
+    <string name="Volumenes">Volumes</string>
+</resources>
